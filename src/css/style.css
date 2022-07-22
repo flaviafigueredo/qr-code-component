@@ -1,0 +1,38 @@
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 258px;
+    border-radius: 15px;
+}
+
+.container .imagem {
+    width: 92%;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.container .info .titulo {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.container .info .paragrafo {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding: 5px 20px 25px 20px;
+}
